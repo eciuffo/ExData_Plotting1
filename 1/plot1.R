@@ -17,3 +17,5 @@ pc.sub[, 9] <- as.numeric(pc.sub[, 9])
 png(file="plot1.png",width=480,height=480,units="px")
 hist(pc.sub$Global_active_power, main = "Global Active Power", xlab = "Global active Power(KiloWatts)", ylab = "Frequency", col = "red") 
 dev.off()
+
+
