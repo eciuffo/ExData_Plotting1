@@ -23,5 +23,4 @@ lines (pc.sub$Time, pc.sub$Sub_metering_2,col="red")
 lines (pc.sub$Time, pc.sub$Sub_metering_3,col="green")
 legend("topright",pch=1,col=c("blue","red","green"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1)
 plot (pc.sub$Time, pc.sub$Global_reactive_power,type="l",col = "blue", lwd = 1,xlab="datetime",ylab="Global Reactive Power(Kilowatts)")
-
 dev.off()

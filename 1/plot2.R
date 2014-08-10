@@ -17,3 +17,5 @@ pc.sub[, 9] <- as.numeric(pc.sub[, 9])
 png(file="plot2.png",width=480,height=480,units="px")
 plot (pc.sub$Time, pc.sub$Global_active_power,type="l",col = "blue", lwd = 1,xlab="",ylab="Global Active Power(Kilowatts)")
 dev.off()
+
+

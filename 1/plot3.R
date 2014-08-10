@@ -21,3 +21,4 @@ lines (pc.sub$Time, pc.sub$Sub_metering_3,col="green")
 legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),pch=1,col=c("blue","red","green"),lty=1)
 dev.off()
 
+
